@@ -8,10 +8,9 @@
   "main": "app.js",
   "devDependencies": {},
   "scripts": {
-    "start": "react-scripts start",
-    "build":"react-scripts build",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "eject":"react-scripts eject"
+    
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
   },
   "author": "",
   "license": "ISC",
