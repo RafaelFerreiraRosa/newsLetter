@@ -32,7 +32,7 @@ app.post("/", function(req,res){
     const url= "https://us13.api.mailchimp.com/3.0/lists/882ae4327c";
     const options= {
         method:"post",
-        auth:"rafa:f77ca8aeda903a5956cf80ad9ba893a2-us13"
+        auth:"rafa:19621ed1946179ceaf4ab14ea103a933-us13"
     }
     const request= https.request(url,options, function(response){
 
@@ -59,7 +59,7 @@ app.post("/failure", function(req, res){
     console.log("running");
     });
 
-// API key: f77ca8aeda903a5956cf80ad9ba893a2-us13
+// API key: 19621ed1946179ceaf4ab14ea103a933-us13
 // ID list: 
 
 
