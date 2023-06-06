@@ -8,11 +8,17 @@
   "main": "app.js",
   "devDependencies": {},
   "scripts": {
-    
     "test": "echo \"Error: no test specified\" && exit 1"
-    
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafaelFerreiraRosa/newsLetter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RafaelFerreiraRosa/newsLetter/issues"
+  },
+  "homepage": "https://github.com/RafaelFerreiraRosa/newsLetter#readme",
   "description": ""
 }
