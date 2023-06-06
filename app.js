@@ -46,7 +46,7 @@ app.post("/", function(req,res){
         });
      });
  
- //request.write(jasonData);
+ request.write(jasonData);
  request.end();
     
 });
