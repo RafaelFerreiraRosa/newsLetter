@@ -6,7 +6,7 @@ const https= require("https");
 
 app.use(bodyParser.urlencoded({extended:true}));
 
-app.use(express.static("/public"));
+app.use("/public",express.static(__dirname+"/public"));
 app.get("/", function(req,res){
     res.sendFile(__dirname + "/signup.html");
 });
