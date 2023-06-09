@@ -22,7 +22,7 @@ app.post("/", function(req,res){
             {
                email_address: email, 
                status:"subscribed", 
-               marge_fields:{
+               merge_fields:{
                 FNAME:firstName,
                 LNAME:lastName
                }  
